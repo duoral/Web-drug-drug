@@ -2706,6 +2706,7 @@ hr {
 .rd-form {
 	position: relative;
 	text-align: left;
+	width: 100%
 }
 
 .rd-form .button {
@@ -2758,6 +2759,7 @@ input:-webkit-autofill ~ .form-validation {
 
 .form-wrap {
 	position: relative;
+	max-height: 60px;
 }
 
 .form-wrap.has-error .form-input {
@@ -2793,7 +2795,7 @@ input:-webkit-autofill ~ .form-validation {
 .form-result {
 	display: block;
 	width: 100%;
-	min-height: 60px;
+	min-height: 80px;
 	padding: 17px 22px;
 	font-size: 14px;
 	font-weight: 400;
@@ -12677,14 +12679,14 @@ h1 + .tabs-line {
 	}
 }
 
-/* 
+/*
  * 	Owl Carousel - Auto Height Plugin
  */
 .owl-height {
 	transition: height 500ms ease-in-out;
 }
 
-/* 
+/*
  *  Core Owl Carousel CSS File
  */
 .owl-carousel {
@@ -12772,7 +12774,7 @@ h1 + .tabs-line {
 	display: block;
 }
 
-/* 
+/*
  * 	Owl Carousel - Lazy Load Plugin
  */
 .owl-carousel .owl-item .owl-lazy {
@@ -12780,7 +12782,7 @@ h1 + .tabs-line {
 	transition: opacity 400ms ease;
 }
 
-/* 
+/*
  * 	Owl Carousel - Video Plugin
  */
 .owl-carousel .owl-video-wrapper {
